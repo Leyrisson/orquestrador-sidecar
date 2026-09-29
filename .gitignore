@@ -1,0 +1,23 @@
+# segredos — nunca versionar
+*.env
+.env
+
+# estado e payloads de execução
+status.json
+payload.json
+outbox.txt
+*.log
+
+# fluxos exportados do n8n e bancos de dados do host
+vagas.db
+vagas.db-wal
+vagas.db-shm
+*.jsonl
+node_modules/
+package-lock.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
